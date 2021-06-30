@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentRight="false"
+    app:flow_horizontalAlign="center"
+    app:flow_verticalAlign="center"
+    tools:context=".ui.login.categoryItem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/rounded">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/laamp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:id="@+id/textView7"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imageView7"
+            android:text="Lamp"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:fontFamily="@font/arlrdbd"></TextView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
